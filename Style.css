@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background-image: url(WIN_20240606_20_35_36_Pro.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.contenedor {
+    position: relative;
+    width: 100%;
+    border-radius: 25px;
+    max-width:450px;
+    min-height: 350px;
+
+    margin: 40px;
+    background-color: rgba(0, 0, 0, 0.546);
+    display: grid;
+    grid-template-rows: 0.45fr 2fr 0.7fr;
+   
+}
+.merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5em;
+    color:white;
+  }
+  .fila1{
+    margin-top: 28px;
+    margin-left: 148px;
+  }
+  #inputText{
+    width: 210px;
+    height:25px;
+    border-radius: 50px;
+    margin-top: 15px;
+    margin-left: 128px; 
+    text-align: center;
+  }
+  #inputText2{
+    width: 190px;
+    height:25px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 138px; 
+    text-align: center;
+  }
+  #inputText3{
+    width: 210px;
+    height:25px;
+    border-radius: 50px;
+    margin-top: 3px;
+    margin-left: 128px; 
+    text-align: center;
+  }
+  #inputText4{
+    width: 190px;
+    height:25px;
+    border-radius: 50px;
+    margin-top: 15px;
+    margin-left: 138px; 
+    text-align: center;
+  }
+
+  .fila3 button{
+    width: 300px;
+    height:60px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 85px;   
+ 
+  }
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 1em;
+}
+
+.roboto-regular2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 0.9em;
+}
